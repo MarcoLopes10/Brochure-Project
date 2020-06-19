@@ -1,0 +1,268 @@
+/* Main Styles */
+body{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    letter-spacing: 0.5rem;
+    padding-left: 20px;
+}
+
+p {
+    letter-spacing: 1px;
+    padding: 10px 20px 20px 5px;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Navigation Bar */
+.nav-bar {
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.icon{
+    display: block;
+    color: white;
+    padding-right: 15px; 
+}
+
+.icon:hover {
+    color: darkgray; 
+}
+
+#title-bar {
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+#mylinks {
+    display: none;
+    flex-direction: column;
+}
+
+#menu-bar{
+    color: white;
+    text-decoration: none;
+}
+
+#menu-bar:hover {
+    color: darkgray;
+}
+
+/* First Page Styles */
+
+
+.first-page {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 25px;
+    grid-gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* About Page Styles */
+
+.about-page {
+    display: grid;
+    background-color: darkgray;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: 20% 80%;
+    grid-gap: 25px;
+}
+
+.about-title {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.about-description {
+    color: white;
+}
+
+.about-content {
+    font-size: 1rem;
+}
+
+/* Contact Page Styles */
+
+.contact-page {
+    display: grid;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 25px;
+    margin-bottom: 80px;
+}
+
+/* Bottom Bar */
+
+.botton-bar{
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icons-botton {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.botton-title {
+    color: white;
+}
+
+
+/* Media Query Styles */
+
+@media only screen and (min-width: 765px) {
+    
+    /* Nav Bar Styles */
+    .nav-bar {
+        display: flex;
+        width: 100%;
+    }
+    
+    #title-bar {
+        padding-right: 5%;
+        color: white;
+    }
+
+    .icon {
+        display: none;
+    }
+    
+    #mylinks {
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+    }
+   
+    #menu-bar {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    } 
+    
+    #menu-bar a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    /* Pictures Page Styles */
+    .first-page {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* About Page Styles */
+    .about-title {
+        color: white;
+        font-size: 2.5rem;
+    }
+    
+    .about-description {
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+    .about-content {
+        font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (min-width: 995px) {
+    
+    /* Nav Bar Styles */
+    .nav-bar {
+        display: flex;
+        width: 100%;
+    }
+    
+    #title-bar {
+        padding-right: 5%;
+        color: white;
+    }
+
+    #mylinks {
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+    }
+
+    .icon {
+        display: none;
+    }
+    
+    #menu-bar {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    } 
+    
+    #menu-bar a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    /* Pictures Page Styles */
+    .first-page {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card-img-top {
+        width: 25%;
+    }
+
+    /* About Page Styles */
+    .about-title {
+        color: white;
+        font-size: 2.5rem;
+    }
+    
+    .about-description {
+        color: white;
+        font-size: 2rem;
+    }
+    
+    .about-content {
+        font-size: 1.5rem;
+    }
+  }
+  

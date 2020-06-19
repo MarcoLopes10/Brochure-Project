@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web Site - Title of Company</title>
+    <!--    Personal Styles     -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--    External Styles     -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="main container">
+      <section id="header">
+        <div class="nav-bar">
+            <a href="#" id="title-bar">Desk's Hand Made</a>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunctionMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div id="mylinks"> 
+                <a href="#products" id="menu-bar">Products</a>
+                <a href="#about" id="menu-bar">About</a>
+                <a href="#contact" id="menu-bar">Contact</a>
+            </div>
+        </div>
+      </section>  
+      <section id="products">
+    <div class="first-page">
+        <div class="card" style="width: 18rem;">
+            <img src="pics/Retro Desk.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Retro Desk</h5>
+              <p class="card-text">The retro desk is one of the most ask desk since is the best quality with a old look with the new tecnics.</p>
+              <a href="" id="price1" class="btn btn-outline-dark" onclick="deskRange(1)">Info</a>
+              
+            </div>
+          </div>
+        <div class="card" style="width: 18rem;">
+            <img src="pics/Doble Desk.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Doble Desk</h5>
+              <p class="card-text">The doble desk, the best solution to work as a team whit a reduce space.</p>
+              <a href="#" id="price2" class="btn btn-outline-dark" onclick="deskRange(2)">Info</a>
+              
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="pics/Darks Desk.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Darks Desk</h5>
+              <p class="card-text">If you like dark themes, this is your option. The dark desk fit where ever you want</p>
+              <a href="#" id="price3" class="btn btn-outline-dark" onclick="deskRange(3)">Info</a>
+              
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="pics/Corne Desk.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Corne Desk</h5>
+              <p class="card-text">The most pratical for a small office, it will give the best approved space. Or if you want to get a small support desk.</p>
+              <a href="#" id="price4" class="btn btn-outline-dark" onclick="deskRange(4)">Info</a>
+              
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="pics/Homes Desk.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Homes Desk</h5>
+              <p class="card-text">If you need a desk for a home office this is perfect, since is the right size to fit every small and big office.</p>
+              <a href="#" id="price5" class="btn btn-outline-dark" onclick="deskRange(5)">Info</a>
+              
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="pics/Offic Desk.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Offic Desk</h5>
+              <p class="card-text">This is a professional desk that give you the best look but also storage for the important things.</p>
+              <a href="#" id="price6" class="btn btn-outline-dark" onclick="deskRange(6)">Info</a>
+              
+            </div>
+          </div>
+        
+    </div>
+  </section>
+  <section id="about">
+    <div class="about-page">
+        <p class="about-title">Desk's Hand Made</p>
+        <p class="about-description">Description of the Company</p>
+        <p></p>
+        <p class="about-content">Lorem Ipsum
+            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."            
+            Maecenas ullamcorper ultrices diam id ultricies. Quisque dignissim urna neque, sed tristique nisi egestas sit amet. Suspendisse lorem magna, gravida et nulla et, ornare luctus tellus. Sed laoreet condimentum nibh, tincidunt commodo arcu venenatis quis. Sed non lacinia justo, vel cursus lorem. Aenean at volutpat purus, facilisis blandit nulla. Etiam quis erat eget nibh mollis maximus nec eu mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla id fringilla diam. Suspendisse id turpis id magna dignissim cursus vel a nisl. Maecenas nunc lorem, imperdiet sed ornare eget, hendrerit a augue. Sed pretium orci nec sem facilisis, vitae euismod lorem congue. Vivamus maximus ac nibh sit amet tincidunt.</p>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="contact-page">
+      <form action="mailto:marco.oliveira.lu@gmail.com?subject=Please%20Contact%20me%20for%20meeting" method="post" enctype="text/plain">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Your Email</label>
+          <input type="email" class="form-control" id="InputEmail" name="email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Full Name</label>
+          <input type="text" class="form-control" id="InputName" name="fullName">
+        </div>
+        <button type="submit" class="btn btn-primary">Contact Us</button>
+      </form>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="botton-bar">
+        <div class="contact-bar">
+            <a href="#"><i class="fab fa-github-square fa-2x icons-botton"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-2x icons-botton"></i></a>
+            <a href="#"><i class="fas fa-envelope-open-text fa-2x icons-botton" ></i></a>
+            <i class="far fa-copyright fa-2x icons-botton"></i>
+        </div>
+        <a href="#"><p class="botton-title">Marco Oliveira Web Developer</p></a>
+    </div>
+  </footer>
+</div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
